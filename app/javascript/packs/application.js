@@ -8,3 +8,23 @@
 // layout file, like app/views/layouts/application.html.erb
 
 console.log('Hello World from Webpacker')
+
+import React from 'react';
+
+class Application extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
+
+  render() {
+
+    return (
+        <h1>Hello from React</h1>
+    );
+  }
+}
+
+export default Application;
