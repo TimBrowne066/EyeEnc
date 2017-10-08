@@ -7,24 +7,13 @@
 // To reference this file, add <%= javascript_pack_tag 'application' %> to the appropriate
 // layout file, like app/views/layouts/application.html.erb
 
-console.log('Hello World from Webpacker')
-
+import 'babel-polyfill';
 import React from 'react';
+import ReactDOM from 'react-dom';
+import ReactOnRails from 'react-on-rails';
+import HomeContainer from '../bundles/locations/containers/homeContainer';
 
-class Application extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
 
-    }
-  }
-
-  render() {
-
-    return (
-        <h1>Hello from React</h1>
-    );
-  }
-}
-
-export default Application;
+ReactOnRails.register({
+  HomeContainer
+});
