@@ -15,7 +15,11 @@
  */
 
 body {
-
+  background: url(http://fiorenzacpa.com/wp-content/uploads/2014/02/philadelphia3.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .carousel-image {
@@ -38,6 +42,7 @@ body {
 }
 
 .nav-logo {
+  display: inline-block;
   height: 50px;
   padding-right: 70px;
 }
@@ -48,4 +53,12 @@ body {
 
 .carousel-text {
   color: #D00C25;
+}
+
+.home-text {
+  border-radius: 15px;
+  padding: 5px;
+  color: black;
+  margin-top: 20px;
+  background-color:rgba(201, 201, 201, 0.9);
 }
