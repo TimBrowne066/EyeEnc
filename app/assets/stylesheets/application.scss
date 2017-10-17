@@ -61,5 +61,37 @@ body {
   color: black;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color:rgba(201, 201, 201, 0.9);
+  background-color:rgba(255, 255, 255, 0.7);
+}
+
+.home-body {
+  border-radius: 15px;
+  padding: 25px;
+  color: black;
+  margin: 20px;
+  background-color:rgba(255, 255, 255, 0.7);
+}
+
+.grid-background {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.body-header {
+  font-size: 25px;
+  color: white;
+  padding: 5px;
+  border-radius: 7px;
+  background-color: #D00C25;
+  margin-bottom: 15px;
+  box-shadow: 3px 3px darkgrey;
+}
+
+.services {
+  margin-top: 10px;
+}
+
+.home-photo {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 15px;
 }
