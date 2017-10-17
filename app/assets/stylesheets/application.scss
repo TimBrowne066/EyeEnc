@@ -68,7 +68,6 @@ body {
   border-radius: 15px;
   padding: 25px;
   color: black;
-  margin: 20px;
   background-color:rgba(255, 255, 255, 0.7);
 }
 
@@ -91,7 +90,17 @@ body {
 }
 
 .home-photo {
-  margin-top: 20px;
   width: 100%;
   border-radius: 15px;
+}
+
+.row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+[class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
 }
