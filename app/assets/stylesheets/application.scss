@@ -56,16 +56,14 @@ body {
 }
 
 .home-text {
-  border-radius: 15px;
   padding: 5px;
   color: black;
-  margin-top: 20px;
+  margin-top: 5px;
   margin-bottom: 20px;
   background-color:rgba(255, 255, 255, 0.7);
 }
 
 .home-body {
-  border-radius: 15px;
   padding: 25px;
   color: black;
   background-color:rgba(255, 255, 255, 0.7);
@@ -103,4 +101,8 @@ body {
 [class*="col-"]{
     margin-bottom: -99999px;
     padding-bottom: 99999px;
+}
+
+.carousel2 {
+  background-color: rgba(255, 255, 255, 0.01);
 }
