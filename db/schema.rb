@@ -22,7 +22,9 @@ ActiveRecord::Schema.define(version: 20171008210442) do
     t.string "state"
     t.string "zip"
     t.string "phone"
+    t.string "fax"
     t.string "description"
+    t.text "hours"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

@@ -12,8 +12,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import ReactOnRails from 'react-on-rails';
 import HomeContainer from '../bundles/locations/containers/homeContainer';
-
+import NavBar from '../bundles/locations/components/navBar';
 
 ReactOnRails.register({
-  HomeContainer
+  HomeContainer, NavBar
 });

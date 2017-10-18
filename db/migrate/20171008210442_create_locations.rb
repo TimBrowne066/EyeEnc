@@ -7,7 +7,9 @@ class CreateLocations < ActiveRecord::Migration[5.1]
       t.string :state
       t.string :zip
       t.string :phone
+      t.string :fax
       t.string :description
+      t.text :hours
       t.timestamps
     end
   end
