@@ -15,7 +15,7 @@
  */
 
 body {
-  background: url(http://fiorenzacpa.com/wp-content/uploads/2014/02/philadelphia3.jpg) no-repeat center center fixed;
+  background: asset_url('philadelphia.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -105,4 +105,11 @@ body {
 
 .carousel2 {
   background-color: rgba(255, 255, 255, 0.01);
+}
+
+.locations-block{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.store-card {
 }
