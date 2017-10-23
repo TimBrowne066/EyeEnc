@@ -13,7 +13,10 @@ import ReactDOM from 'react-dom';
 import ReactOnRails from 'react-on-rails';
 import HomeContainer from '../bundles/locations/containers/homeContainer';
 import NavBar from '../bundles/locations/components/navBar';
+import StoreCard from '../bundles/locations/components/storeCard';
+import StoresContainer from '../bundles/locations/containers/storesContainer';
+import ShowContainer from '../bundles/locations/containers/showContainer';
 
 ReactOnRails.register({
-  HomeContainer, NavBar
+  HomeContainer, NavBar, StoresContainer, StoreCard, ShowContainer
 });

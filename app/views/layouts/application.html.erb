@@ -9,7 +9,7 @@
     <%= javascript_pack_tag 'application' %>
 
   </head>
-  <%= react_component("NavBar", prerender: false) %>
+  <%= react_component("NavBar", props: { locations: @locations }, prerender: false) %>
 
   <body>
     <%= yield %>
