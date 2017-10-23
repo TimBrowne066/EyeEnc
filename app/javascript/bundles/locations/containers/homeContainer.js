@@ -5,6 +5,8 @@ import { Carousel, Image, Navbar, NavItem, MenuItem, NavDropdown, Nav, PanelGrou
 import home1 from '../../../../assets/images/home1.jpg';
 import home2 from '../../../../assets/images/home2.jpg';
 import home3 from '../../../../assets/images/home3.jpg';
+import instagram from '../../../../assets/images/instagram.png';
+import facebook from '../../../../assets/images/facebook.png';
 
 class HomeContainer extends React.Component {
   constructor(props) {
@@ -26,6 +28,7 @@ class HomeContainer extends React.Component {
           <Col xs={12} lg={8} lgOffset={2} md={8} mdOffset={2} className="text-center home-text">
             <h2 className="body-header">Welcome to Eye Encounters</h2>
             <p>At our multi-location Philadelphia state-of-the-art eye care practice, our mission is to preserve, restore and enhance the vision of every member of your family. We are committed to giving you the most thorough eye care and personal attention using the most modern technology.  We believe that educating our patients is among the keys to keeping their eyes healthy. Our expert staff takes the time to discuss how different contact selections and frame styles can impact your vision, answer any questions you might have and supply you with the most up-to-date information in order to keep your eyes healthy.</p>
+            <a href="https://www.instagram.com/eyeencounters/"><Image className="social-media-icon" src={instagram}/></a><a href="https://www.facebook.com/Eye-Encounters-192939874071785/"><Image className="social-media-icon" src={facebook}/></a>
           </Col>
         </Row>
         <Row className="locations-block">

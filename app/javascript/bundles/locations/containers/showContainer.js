@@ -31,15 +31,16 @@ class ShowContainer extends React.Component {
               <p className="store-body">{this.props.location.address}</p>
               <p className="store-body">{this.props.location.city}, {this.props.location.state} {this.props.location.zip}</p>
               <p className="store-details">PHONE</p>
-              <p className="store-body">{this.props.location.phone}</p>
+              <a href={`tel:${this.props.location.phone}`} className="store-body">{this.props.location.phone}</a>
               <p className="store-details">HOURS</p>
               {hours2}
               </div>
           </Col>
           <Col lg={6} sm={12} className="home-text">
           <iframe
-            width="600"
-            height="450"
+            className="google-map"
+            width="100%"
+            height="400"
             src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyA9y27CfGXcc0jBZi1Dhnb9gTu9LCE-hic
               &q=${this.props.location.address},Philadelphia+PA`} allowfullscreen>
           </iframe>

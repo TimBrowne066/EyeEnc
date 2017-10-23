@@ -40,10 +40,10 @@ class NavBar extends React.Component {
               <MenuItem eventKey={3.3} href="#">Insurance</MenuItem>
 
             </NavDropdown>
-            <a href="https://eyeencounters.acuityscheduling.com/schedule.php"><img className="nav-logo" src={specials}/></a>
 
           </Nav>
           <Nav pullRight>
+          <a href="https://eyeencounters.acuityscheduling.com/schedule.php"><img className="nav-logo" src={specials}/></a>
             <a href="https://eyeencounters.acuityscheduling.com/schedule.php"><img className="nav-logo" src="http://www.societegenerale.al/en/wp-content/uploads/2016/07/Make-an-appointment.gif"/></a>
           </Nav>
         </Navbar.Collapse>
