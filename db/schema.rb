@@ -24,6 +24,8 @@ ActiveRecord::Schema.define(version: 20171008210442) do
     t.string "phone"
     t.string "fax"
     t.string "description"
+    t.string "latitude"
+    t.string "longitude"
     t.text "hours"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

@@ -19,7 +19,9 @@ Location.create(
           Thursday	10AM–7:00PM\n
           Friday	9:30AM–5:30PM\n
           Saturday	9:30AM–4PM\n
-          Sunday	Closed\n"
+          Sunday	Closed\n",
+  latitude: "39.9521149",
+  longitude: "-75.17282269999998"
 )
 Location.create(
   name: "40th and Chestnut Location",
@@ -34,7 +36,9 @@ Location.create(
           Thursday	10AM–6PM\n
           Friday	10AM–6PM\n
           Saturday	10AM–4PM\n
-          Sunday	Closed\n"
+          Sunday	Closed\n",
+latitude: "39.9553932",
+longitude: "-75.20253430000002"
 )
 Location.create(
   name: "13th and Market Location",
@@ -49,7 +53,9 @@ Location.create(
           Thursday	10AM–6PM\n
           Friday	10AM–6PM\n
           Saturday	10AM–4PM\n
-          Sunday	Closed\n"
+          Sunday	Closed\n",
+latitude: "39.9521722",
+longitude: "-75.16197090000003"
 )
 Location.create(
   name: "Morrell Location",
@@ -64,7 +70,9 @@ Location.create(
           Thursday	10AM–6PM\n
           Friday	10AM–6PM\n
           Saturday	Closed\n
-          Sunday	Closed\n"
+          Sunday	Closed\n",
+latitude: "40.0644548",
+longitude: "-74.9870105"
 )
 Location.create(
   name: "Aramingo Location",
@@ -79,7 +87,9 @@ Location.create(
           Thursday	10AM–7PM\n
           Friday	10AM–6PM\n
           Saturday	10AM–4PM\n
-          Sunday	Closed\n"
+          Sunday	Closed\n",
+latitude: "39.9963613",
+longitude: "-75.08986959999999"
 )
 Location.create(
   name: "Drexel Eye Location",
@@ -94,5 +104,7 @@ Location.create(
           Thursday	8AM–4PM\n
           Friday	8AM–4PM\n
           Saturday	Closed\n
-          Sunday	Closed\n"
+          Sunday	Closed\n",
+latitude: "39.9486325",
+longitude: "-75.16406390000003"
 )

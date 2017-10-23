@@ -36,6 +36,14 @@ class ShowContainer extends React.Component {
               {hours2}
               </div>
           </Col>
+          <Col lg={6} sm={12} className="home-text">
+          <iframe
+            width="600"
+            height="450"
+            src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyA9y27CfGXcc0jBZi1Dhnb9gTu9LCE-hic
+              &q=${this.props.location.address},Philadelphia+PA`} allowfullscreen>
+          </iframe>
+          </Col>
         </Row>
       </Grid>
 
