@@ -10,6 +10,12 @@ class ShowContainer extends React.Component {
   }
 
   render() {
+    let hours = this.props.location.hours.split("\n")
+    let hours2 = hours.map(hour => {
+      return(
+        <p className="store-body">{hour}</p>
+      )
+    })
 
     return (
       <Grid>
@@ -19,12 +25,16 @@ class ShowContainer extends React.Component {
           </Col>
         </Row>
         <Row>
-          <Col lg={6} sm={12} className="home-text store-details">
-              <p>{this.props.location.address}</p>
-              <p>{this.props.location.city}, {this.props.location.state}</p>
-              <p>{this.props.location.zip}</p>
-              <p>{this.props.location.phone}</p>
-              <p>{this.props.location.hours.split(/\r?\n/)}</p>
+          <Col lg={6} sm={12} className="home-text">
+          <div className="store-body">
+              <p className="store-details">ADDRESS</p>
+              <p className="store-body">{this.props.location.address}</p>
+              <p className="store-body">{this.props.location.city}, {this.props.location.state} {this.props.location.zip}</p>
+              <p className="store-details">PHONE</p>
+              <p className="store-body">{this.props.location.phone}</p>
+              <p className="store-details">HOURS</p>
+              {hours2}
+              </div>
           </Col>
         </Row>
       </Grid>
