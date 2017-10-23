@@ -16,7 +16,8 @@ import NavBar from '../bundles/locations/components/navBar';
 import StoreCard from '../bundles/locations/components/storeCard';
 import StoresContainer from '../bundles/locations/containers/storesContainer';
 import ShowContainer from '../bundles/locations/containers/showContainer';
+import GlassesContainer from '../bundles/locations/containers/glassesContainer';
 
 ReactOnRails.register({
-  HomeContainer, NavBar, StoresContainer, StoreCard, ShowContainer
+  HomeContainer, NavBar, StoresContainer, StoreCard, ShowContainer, GlassesContainer
 });

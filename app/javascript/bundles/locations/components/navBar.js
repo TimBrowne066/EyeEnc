@@ -32,19 +32,19 @@ class NavBar extends React.Component {
         <Navbar.Collapse>
           <Nav>
             <NavItem eventKey={1} onClick={this.handleClick} href="#">Contact Us</NavItem>
-            <NavItem eventKey={2} href="#">Locations</NavItem>
             <NavDropdown eventKey={3} title=" Our Services" id="basic-nav-dropdown">
-              <MenuItem eventKey={3.1} href="#">Eyewear</MenuItem>
-              <MenuItem eventKey={3.2} href="#">Sunglasses</MenuItem>
-              <MenuItem eventKey={3.3} href="#">Contact Lenses</MenuItem>
-              <MenuItem eventKey={3.3} href="#">Insurance</MenuItem>
-              <MenuItem eventKey={3.3} href="#">Specials</MenuItem>
+              <MenuItem eventKey={3.1} href="/glasses/">Eyewear</MenuItem>
               <MenuItem divider />
-              <MenuItem eventKey={3.3}>Eye Exams</MenuItem>
+              <MenuItem eventKey={3.3} href="#">Contact Lenses</MenuItem>
+              <MenuItem divider />
+              <MenuItem eventKey={3.3} href="#">Insurance</MenuItem>
+
             </NavDropdown>
+            <a href="https://eyeencounters.acuityscheduling.com/schedule.php"><img className="nav-logo" src={specials}/></a>
+
           </Nav>
           <Nav pullRight>
-            <a href="https://eyeencounters.acuityscheduling.com/schedule.php"><img className="nav-logo" src={specials}/></a>
+            <a href="https://eyeencounters.acuityscheduling.com/schedule.php"><img className="nav-logo" src="http://www.societegenerale.al/en/wp-content/uploads/2016/07/Make-an-appointment.gif"/></a>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
