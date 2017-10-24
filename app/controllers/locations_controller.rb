@@ -4,6 +4,7 @@ class LocationsController < ApplicationController
   end
 
   def show
+    @locations = Location.all
     @location = Location.find(params[:id])
   end
 

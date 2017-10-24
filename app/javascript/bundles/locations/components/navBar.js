@@ -44,9 +44,9 @@ class NavBar extends React.Component {
             <NavDropdown eventKey={3} title=" Our Services" id="basic-nav-dropdown">
               <MenuItem eventKey={3.1} href="/glasses/">Eyewear</MenuItem>
               <MenuItem divider />
-              <MenuItem eventKey={3.3} href="#">Contact Lenses</MenuItem>
+              <MenuItem eventKey={3.3} href="/contacts/">Contact Lenses</MenuItem>
               <MenuItem divider />
-              <MenuItem eventKey={3.3} href="#">Insurance</MenuItem>
+              <MenuItem eventKey={3.3} href="/insurances/">Insurance</MenuItem>
 
             </NavDropdown>
 

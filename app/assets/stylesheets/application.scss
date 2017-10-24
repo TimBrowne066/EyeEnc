@@ -72,7 +72,7 @@ body {
 
 .grid-background {
   background-color: rgba(255, 255, 255, 0.5);
-  width: 80%;
+  width: 90%;
 }
 
 .body-header {
@@ -145,6 +145,13 @@ li:hover{
   border-radius: 15px;
 }
 
+.store-body-2 {
+  background-color: white;
+  margin-left: 15px;
+  border-radius: 15px;
+  box-shadow: 1px 1px darkgrey;
+}
+
 .glasses-tile{
   width: 100%;
 }
@@ -166,4 +173,35 @@ li:hover{
   width: 70px;
   height: 70px;
   margin: 8px;
+}
+
+.insurance-card{
+  width: 50%;
+  padding: 10px;
+}
+
+.insurance-grid{
+  background-color: white;
+}
+
+.insurance-card:hover {
+	opacity: 1;
+	-webkit-animation: flash 2.0s;
+	animation: flash 2.0s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .2;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
 }

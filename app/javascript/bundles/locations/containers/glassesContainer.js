@@ -30,8 +30,8 @@ class GlassesContainer extends React.Component {
       <Grid className="home-text">
         <Row>
           <Col xs={12} lg={12} md={12} className="text-center">
-            <h2 className="body-header">Eyewear</h2>
-            <p className="store-body">We offer frames from the following designers:</p>
+            <h1 className="body-header">Eyewear</h1>
+            <h3 className="store-body">We offer frames from the following designers:</h3>
           </Col>
         </Row>
         <div className="text-center glasses-grid">

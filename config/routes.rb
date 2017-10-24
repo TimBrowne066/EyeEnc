@@ -3,4 +3,7 @@ Rails.application.routes.draw do
   resources :locations
 
   resource :glasses, only: [:show]
+  resource :contacts, only: [:show]
+  resource :insurances, only: [:show]
+
 end

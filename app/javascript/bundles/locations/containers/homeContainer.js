@@ -22,8 +22,8 @@ class HomeContainer extends React.Component {
 
     return (
       <div>
-      <HomeCarousel/>
       <Grid className="grid-background">
+      <HomeCarousel/>
         <Row>
           <Col xs={12} lg={8} lgOffset={2} md={8} mdOffset={2} className="text-center home-text">
             <h2 className="body-header">Welcome to Eye Encounters</h2>
@@ -44,6 +44,7 @@ class HomeContainer extends React.Component {
             <ul className="services-container">
               <li className="services">Primary Eye Care</li>
               <li className="services">Comprehensive Eye Examinations</li>
+              <li className="services">Contact Lenses and Exams</li>
               <li className="services">On-site laboratory</li>
               <li className="services">Digital Lenses</li>
               <li className="services">Designer frames and sunglasses</li>

@@ -17,7 +17,16 @@ import StoreCard from '../bundles/locations/components/storeCard';
 import StoresContainer from '../bundles/locations/containers/storesContainer';
 import ShowContainer from '../bundles/locations/containers/showContainer';
 import GlassesContainer from '../bundles/locations/containers/glassesContainer';
+import ContactsContainer from '../bundles/locations/containers/contactsContainer';
+import InsurancesContainer from '../bundles/locations/containers/insurancesContainer';
 
 ReactOnRails.register({
-  HomeContainer, NavBar, StoresContainer, StoreCard, ShowContainer, GlassesContainer
+  HomeContainer,
+  NavBar,
+  StoresContainer,
+  StoreCard,
+  ShowContainer,
+  GlassesContainer,
+  InsurancesContainer,
+  ContactsContainer
 });
