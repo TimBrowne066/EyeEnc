@@ -37,57 +37,57 @@ class GlassesContainer extends React.Component {
         <div className="text-center glasses-grid">
         <Row>
           <Col lg={4}>
-            <img className="glasses-tile" src={armani}/>
+            <a href="http://www.framesoflife.com/en-us/"><img className="glasses-tile" src={armani}/></a>
           </Col>
           <Col lg={4}>
-            <img className="glasses-tile" src={carrera}/>
+            <a href="http://www.carreraworld.com/us/en.html"><img className="glasses-tile" src={carrera}/></a>
           </Col>
           <Col lg={4}>
-            <img className="glasses-tile" src={cazal}/>
-          </Col>
-        </Row>
-        <Row>
-          <Col lg={4}>
-            <img className="glasses-tile" src={dolceandgabbana}/>
-          </Col>
-          <Col lg={4}>
-            <img className="glasses-tile" src={gucci}/>
-          </Col>
-          <Col lg={4}>
-            <img className="glasses-tile" src={katespade}/>
+            <a href="http://www.cazal-eyewear.com/"><img className="glasses-tile" src={cazal}/></a>
           </Col>
         </Row>
         <Row>
           <Col lg={4}>
-            <img className="glasses-tile" src={miumiu}/>
+            <a href="http://www.dolcegabbana.com/eyewear/"><img className="glasses-tile" src={dolceandgabbana}/></a>
           </Col>
           <Col lg={4}>
-            <img className="glasses-tile" src={oakley}/>
+            <a href="https://www.gucci.com/int/en/ca/women/womens-accessories/womens-eyewear/womens-eyeglasses-c-women-sunglasses-opticals"><img className="glasses-tile" src={gucci}/></a>
           </Col>
           <Col lg={4}>
-            <img className="glasses-tile" src={armani}/>
-          </Col>
-        </Row>
-        <Row>
-          <Col lg={4}>
-            <img className="glasses-tile" src={persol}/>
-          </Col>
-          <Col lg={4}>
-            <img className="glasses-tile" src={prada}/>
-          </Col>
-          <Col lg={4}>
-            <img className="glasses-tile" src={rayban}/>
+            <a href="https://www.katespade.com/accessories/sunglasses-reading-glasses/"><img className="glasses-tile" src={katespade}/></a>
           </Col>
         </Row>
         <Row>
           <Col lg={4}>
-            <img className="glasses-tile" src={tiffany}/>
+            <a href="https://store.miumiu.com/en/miumiuus/eyewear"><img className="glasses-tile" src={miumiu}/></a>
           </Col>
           <Col lg={4}>
-            <img className="glasses-tile" src={tomford}/>
+            <a href="http://www.oakley.com/"><img className="glasses-tile" src={oakley}/></a>
           </Col>
           <Col lg={4}>
-            <img className="glasses-tile" src={versace}/>
+            <a href="https://www.valentino.com/gb/shop/women/eyewear-main_section"><img className="glasses-tile" src={valentino}/></a>
+          </Col>
+        </Row>
+        <Row>
+          <Col lg={4}>
+            <a href="https://www.persol.com/usa"><img className="glasses-tile" src={persol}/></a>
+          </Col>
+          <Col lg={4}>
+            <a href="http://www.prada.com/en/eyewear.html"><img className="glasses-tile" src={prada}/></a>
+          </Col>
+          <Col lg={4}>
+            <a href="https://www.ray-ban.com/usa"><img className="glasses-tile" src={rayban}/></a>
+          </Col>
+        </Row>
+        <Row>
+          <Col lg={4}>
+            <a href="http://www.tiffany.com/accessories/eyewear"><img className="glasses-tile" src={tiffany}/></a>
+          </Col>
+          <Col lg={4}>
+            <a href="http://www.tomford.com/eyewear/"><img className="glasses-tile" src={tomford}/></a>
+          </Col>
+          <Col lg={4}>
+            <a href="http://www.versace.com/us/en-us/women/eyewear/"><img className="glasses-tile" src={versace}/></a>
           </Col>
         </Row>
         <h2 className="body-header">And many more!</h2>

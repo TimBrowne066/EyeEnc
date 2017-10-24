@@ -31,7 +31,7 @@ class ShowContainer extends React.Component {
               <p className="store-body">{this.props.location.address}</p>
               <p className="store-body">{this.props.location.city}, {this.props.location.state} {this.props.location.zip}</p>
               <p className="store-details">PHONE</p>
-              <a href={`tel:${this.props.location.phone}`} className="store-body">{this.props.location.phone}</a>
+              <a href={`tel:${this.props.location.phone}`} className="store-button">{this.props.location.phone}</a>
               <p className="store-details">HOURS</p>
               {hours2}
               </div>

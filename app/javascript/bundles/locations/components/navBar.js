@@ -24,7 +24,7 @@ class NavBar extends React.Component {
       return(
         <div>
         <h2>{location.name}</h2>
-        <a href={`tel:${location.phone}`} className="store-body">{location.phone}</a>
+        <a href={`tel:${location.phone}`} className="store-button">{location.phone}</a>
         </div>
       )
     })
@@ -61,7 +61,7 @@ class NavBar extends React.Component {
       <Modal className="fade" show={this.state.basicModal} onHide={() => this.setState({ basicModal: false })}>
         <Modal.Body>
           {contacts}
-          <a href="https://eyeencounters.acuityscheduling.com/schedule.php"><img className="nav-logo" src="http://www.societegenerale.al/en/wp-content/uploads/2016/07/Make-an-appointment.gif"/></a>
+          <a className="appt" href="https://eyeencounters.acuityscheduling.com/schedule.php"><img className="nav-logo" src="http://www.societegenerale.al/en/wp-content/uploads/2016/07/Make-an-appointment.gif"/></a>
         </Modal.Body>
         <Modal.Footer>
             <button type="button" className="btn btn-danger" onClick={() => this.setState({ basicModal: false })}>Close</button>

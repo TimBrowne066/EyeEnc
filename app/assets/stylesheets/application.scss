@@ -205,3 +205,47 @@ li:hover{
 		opacity: 1;
 	}
 }
+.social-media-icon:hover {
+	opacity: 1;
+	-webkit-animation: flash 2.0s;
+	animation: flash 2.0s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .2;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+a {
+  color: lightgray;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightgray;
+}
+
+.store-button{
+  color: lightblue;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+
+.appt{
+  margin-top: 10px;
+}
