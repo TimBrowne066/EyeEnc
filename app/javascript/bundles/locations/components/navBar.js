@@ -24,7 +24,7 @@ class NavBar extends React.Component {
       return(
         <div>
         <h2>{location.name}</h2>
-        <p>{location.phone}</p>
+        <a href={`tel:${location.phone}`} className="store-body">{location.phone}</a>
         </div>
       )
     })

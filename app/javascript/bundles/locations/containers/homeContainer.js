@@ -44,11 +44,9 @@ class HomeContainer extends React.Component {
             <ul className="services-container">
               <li className="services">Primary Eye Care</li>
               <li className="services">Comprehensive Eye Examinations</li>
-              <li className="services">Optical Dispensing - Designer Frames and Sunglasses</li>
-              <li className="services">Contact Lenses</li>
-              <li className="services">Treatment of Eye Infections, Eye Injuries, Dry Eyes</li>
-              <li className="services">Treatment of Eye Diseases: Cataracts, Glaucoma, Diabetic Retinopathy</li>
-              <li className="services">Low Vision Services</li>
+              <li className="services">On-site laboratory</li>
+              <li className="services">Digital Lenses</li>
+              <li className="services">Designer frames and sunglasses</li>
             </ul>
             <p>As dedicated eye care professionals, we recognize the trust our patients place in us and it is our mission to meet and exceed those expectations. We invite you to come to our practice and receive the quality attention that you deserve. At each of our EYE ENCOUNTERS offices, we take the time to care for you and your eyes.</p>
           </Col>
