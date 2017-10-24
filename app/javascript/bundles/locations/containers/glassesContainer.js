@@ -3,7 +3,7 @@ import { Carousel, img, Navbar, NavItem, MenuItem, NavDropdown, Nav, PanelGroup,
 import armani from '../../../../assets/images/brands/armani.jpg';
 import carrera from '../../../../assets/images/brands/carrera.jpg';
 import cazal from '../../../../assets/images/brands/cazal.jpg';
-import dolceandgabbana from '../../../../assets/images/brands/dolceandgabbana.jpg';
+import dolceandgabbana from '../../../../assets/images/brands/DolceAndGabbana.jpg';
 import gucci from '../../../../assets/images/brands/gucci.jpg';
 import katespade from '../../../../assets/images/brands/katespade.jpg';
 import miumiu from '../../../../assets/images/brands/miumiu.jpg';
