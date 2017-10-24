@@ -20,6 +20,15 @@ class NavBar extends React.Component {
 
   render() {
 
+    let contacts = this.props.locations.map(location => {
+      return(
+        <div>
+        <h2>{location.name}</h2>
+        <p>{location.phone}</p>
+        </div>
+      )
+    })
+
     return (
       <div>
       <Navbar inverse collapseOnSelect className="navigation">
@@ -51,7 +60,8 @@ class NavBar extends React.Component {
 
       <Modal className="fade" show={this.state.basicModal} onHide={() => this.setState({ basicModal: false })}>
         <Modal.Body>
-
+          {contacts}
+          <a href="https://eyeencounters.acuityscheduling.com/schedule.php"><img className="nav-logo" src="http://www.societegenerale.al/en/wp-content/uploads/2016/07/Make-an-appointment.gif"/></a>
         </Modal.Body>
         <Modal.Footer>
             <button type="button" className="btn btn-danger" onClick={() => this.setState({ basicModal: false })}>Close</button>
