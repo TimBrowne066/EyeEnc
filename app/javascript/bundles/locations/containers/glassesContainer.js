@@ -27,7 +27,7 @@ class GlassesContainer extends React.Component {
   render() {
 
     return (
-      <Grid className="home-text">
+      <Grid className="glasses-text">
         <Row>
           <Col xs={12} lg={12} md={12} className="text-center">
             <h1 className="body-header">Eyewear</h1>
@@ -90,8 +90,9 @@ class GlassesContainer extends React.Component {
             <a href="http://www.versace.com/us/en-us/women/eyewear/"><img className="glasses-tile" src={versace}/></a>
           </Col>
         </Row>
-        <h2 className="body-header">And many more!</h2>
         </div>
+        <h2 className="body-header text-center">And many more!</h2>
+
       </Grid>
     );
   }

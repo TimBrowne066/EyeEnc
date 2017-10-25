@@ -12,9 +12,14 @@ class ContactsContainer extends React.Component {
   render() {
 
     return (
-      <div className="ContactsContainer">
-      <h1>CONTACTS</h1>
-      </div>
+      <Grid className="glasses-text">
+        <Row>
+          <Col xs={12} lg={12} md={12} className="text-center">
+            <h1 className="body-header">Contact lenses</h1>
+            <h3 className="store-body">We offer these contact brands:</h3>
+          </Col>
+        </Row>
+      </Grid>
     );
   }
 }

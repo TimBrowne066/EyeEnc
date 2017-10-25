@@ -5,5 +5,7 @@ Rails.application.routes.draw do
   resource :glasses, only: [:show]
   resource :contacts, only: [:show]
   resource :insurances, only: [:show]
+  resource :laboratory, only: [:show]
+
 
 end

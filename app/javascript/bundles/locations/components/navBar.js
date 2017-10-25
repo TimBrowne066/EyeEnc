@@ -1,9 +1,11 @@
 import React from 'react';
-import { Navbar, NavItem, MenuItem, NavDropdown, Nav, PanelGroup, Panel, Grid, Row, Col, Button, Well } from 'react-bootstrap';
+import { Navbar, Image, NavItem, MenuItem, NavDropdown, Nav, PanelGroup, Panel, Grid, Row, Col, Button, Well } from 'react-bootstrap';
 import navImage from '../../../../assets/images/logo.png';
 import { Modal } from 'simple-react-bootstrap';
 import StoresContainer from '../containers/storesContainer';
 import specials from "../../../../assets/images/specials.png";
+import instagram from '../../../../assets/images/instagram.png';
+import facebook from '../../../../assets/images/facebook.png';
 
 class NavBar extends React.Component {
   constructor(props) {
@@ -47,9 +49,9 @@ class NavBar extends React.Component {
               <MenuItem eventKey={3.3} href="/contacts/">Contact Lenses</MenuItem>
               <MenuItem divider />
               <MenuItem eventKey={3.3} href="/insurances/">Insurance</MenuItem>
-
+              <MenuItem divider />
+              <MenuItem eventKey={3.3} href="/laboratory/">Laboratory</MenuItem>
             </NavDropdown>
-
           </Nav>
           <Nav pullRight>
           <a href="https://eyeencounters.acuityscheduling.com/schedule.php"><img className="nav-logo" src={specials}/></a>
@@ -57,11 +59,10 @@ class NavBar extends React.Component {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-
       <Modal className="fade" show={this.state.basicModal} onHide={() => this.setState({ basicModal: false })}>
         <Modal.Body>
           {contacts}
-          <a className="appt" href="https://eyeencounters.acuityscheduling.com/schedule.php"><img className="nav-logo" src="http://www.societegenerale.al/en/wp-content/uploads/2016/07/Make-an-appointment.gif"/></a>
+          <a className="appt" href="https://eyeencounters.acuityscheduling.com/schedule.php"><img className="nav-logo" src="http://www.societegenerale.al/en/wp-content/uploads/2016/07/Make-an-appointment.gif"/></a><a href="https://www.instagram.com/eyeencounters/"><Image className="social-media-icon" src={instagram}/></a><a href="https://www.facebook.com/Eye-Encounters-192939874071785/"><Image className="social-media-icon" src={facebook}/></a>
         </Modal.Body>
         <Modal.Footer>
             <button type="button" className="btn btn-danger" onClick={() => this.setState({ basicModal: false })}>Close</button>

@@ -45,8 +45,8 @@ class HomeContainer extends React.Component {
               <li className="services"><a href="https://eyeencounters.acuityscheduling.com/schedule.php">Primary Eye Care</a></li>
               <li className="services"><a href="https://eyeencounters.acuityscheduling.com/schedule.php">Comprehensive Eye Examinations</a></li>
               <li className="services"><a href="/contacts/">Contact Lenses and Exams</a></li>
-              <li className="services"><a href="/glasses/">On-site laboratory</a></li>
-              <li className="services"><a href="/glasses/">Digital Lenses</a></li>
+              <li className="services"><a href="/laboratory/">On-site laboratory</a></li>
+              <li className="services"><a href="/laboratory/">Digital Lenses</a></li>
               <li className="services"><a href="/glasses/">Designer frames and sunglasses</a></li>
             </ul>
             <p>As dedicated eye care professionals, we recognize the trust our patients place in us and it is our mission to meet and exceed those expectations. We invite you to come to our practice and receive the quality attention that you deserve. At each of our EYE ENCOUNTERS offices, we take the time to care for you and your eyes.</p>
