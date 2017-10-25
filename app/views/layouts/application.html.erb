@@ -4,6 +4,7 @@
     <title>Eye Encounters</title>
     <%= csrf_meta_tags %>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application' %>
@@ -15,4 +16,6 @@
   <body>
     <%= yield %>
   </body>
+  <%= react_component("Footer", props: { locations: @locations }, prerender: false) %>
+
 </html>

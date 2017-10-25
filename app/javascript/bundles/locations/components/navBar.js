@@ -33,7 +33,7 @@ class NavBar extends React.Component {
 
     return (
       <div>
-      <Navbar inverse collapseOnSelect className="navigation">
+      <Navbar inverse fixedTop collapseOnSelect className="navigation">
         <Navbar.Header>
           <a href="/">
             <img className="nav-logo" src={navImage}/>

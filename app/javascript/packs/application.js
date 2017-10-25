@@ -20,6 +20,7 @@ import GlassesContainer from '../bundles/locations/containers/glassesContainer';
 import ContactsContainer from '../bundles/locations/containers/contactsContainer';
 import InsurancesContainer from '../bundles/locations/containers/insurancesContainer';
 import LaboratoryContainer from '../bundles/locations/containers/laboratoryContainer';
+import Footer from '../bundles/locations/components/footer';
 
 ReactOnRails.register({
   HomeContainer,
@@ -30,5 +31,6 @@ ReactOnRails.register({
   GlassesContainer,
   InsurancesContainer,
   ContactsContainer,
-  LaboratoryContainer
+  LaboratoryContainer,
+  Footer
 });
