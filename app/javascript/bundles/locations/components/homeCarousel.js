@@ -10,22 +10,22 @@ const HomeCarousel = (props) => {
       <Carousel.Item>
         <Image className="carousel-image" src={image}/>
         <Carousel.Caption>
-          <h3 className="carousel-header">Welcome!</h3>
-          <p className="carousel-text">Eye Encounters has been Philadelphia's premier vision center since...</p> '
+          <h3 className="carousel-header">Welcome</h3>
+          <p className="carousel-text">Eye Encounters has been Philadelphia's premier vision center since...</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
       <Image className="carousel-image" src={image2}/>
         <Carousel.Caption>
           <h3 className="carousel-header">Find your style</h3>
-          <p className="carousel-text">We carry the finest designer brands including...</p>
+          <p className="carousel-text">We carry the finest designer brands including Gucci, Tom Ford, and Cazal!</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
       <Image className="carousel-image" src={image3}/>
         <Carousel.Caption>
           <h3 className="carousel-header">We take most insurances</h3>
-          <p className="carousel-text">We take this insurance and that insurance and it makes your glasses cheaper!.</p>
+          <p className="carousel-text">EyeMed, VSP, Davis, Medicaid, Spectera and many more!</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

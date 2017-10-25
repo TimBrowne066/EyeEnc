@@ -21,9 +21,9 @@ class HomeContainer extends React.Component {
 
 
     return (
-      <div>
-      <Grid className="grid-background">
+      <div className="home-page">
       <HomeCarousel/>
+      <Grid className="grid-background">
         <Row>
           <Col xs={12} lg={8} lgOffset={2} md={8} mdOffset={2} className="text-center home-text">
             <h2 className="body-header">Welcome to Eye Encounters</h2>
