@@ -18,7 +18,7 @@ class ShowContainer extends React.Component {
     })
 
     return (
-      <Grid>
+      <Grid className="show-page">
         <Row>
           <Col xs={12} lg={8} lgOffset={2} md={8} mdOffset={2} className="text-center home-text">
             <h2 className="body-header">{this.props.location.name}</h2>
