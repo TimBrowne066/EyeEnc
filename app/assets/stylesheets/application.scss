@@ -45,7 +45,7 @@ body {
 
 .navbar-inverse .navbar-brand {
   font-family: helvetica;
-  color: #D00C25;
+  color: #D95253;
 }
 
 .nav-logo {
@@ -87,32 +87,36 @@ body {
   font-size: 25px;
   color: white;
   padding: 5px;
-  border-radius: 7px;
-  background-color: #D00C25;
-  margin-bottom: 15px;
-  box-shadow: 3px 3px darkgrey;
+  text-align: center;
+  border-radius: 3px;
+  width: 100%;
+  background-color: #D95253;
 }
 
+.services-header{
+  font-size: 25px;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  border-radius: 3px;
+  width: 100%;
+  background-color: #D95253;
+  margin-bottom: 5px;
+}
 .services {
   font-size: 16px;
   color: white;
-  padding: 5px;
-  border-radius: 7px;
-  background-color: #111111;
-  margin-bottom: 3px;
-  box-shadow: 3px 3px darkgrey;
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  background-color: #222222;
+  border: 1px solid #111111;
 }
 
 .services:hover{
-  background-color: darkred;
-}
-
-li:hover{
-  background-color: darkred;
-}
-
-.services {
-  margin-top: 10px;
+  background-color: #444444;
+  border: 1px solid #333333;
 }
 
 .home-photo {
@@ -178,8 +182,8 @@ li:hover{
 }
 
 .social-media-icon{
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   margin: 8px;
 }
 
