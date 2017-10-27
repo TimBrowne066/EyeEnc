@@ -40,7 +40,7 @@ class ShowContainer extends React.Component {
           <iframe
             className="google-map"
             width="100%"
-            height="400"
+            height="412"
             src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyA9y27CfGXcc0jBZi1Dhnb9gTu9LCE-hic
               &q=${this.props.location.address},Philadelphia+PA`} allowfullscreen>
           </iframe>
