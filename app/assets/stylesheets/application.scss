@@ -353,8 +353,7 @@ footer {
 }
 
 .store-image:hover{
-  -webkit-filter: blur(2px);
-  filter: blur(2px);
+  opacity: 0.6;
 }
 
 .panel-body{
