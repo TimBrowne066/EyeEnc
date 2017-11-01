@@ -11,7 +11,7 @@ const HomeCarousel = (props) => {
         <Image className="carousel-image" src={image}/>
         <Carousel.Caption>
           <h3 className="carousel-header">Welcome</h3>
-          <p className="carousel-text">Eye Encounters has been Philadelphia's premier vision center since...</p>
+          <p className="carousel-text">Eye Encounters has been Philadelphia's premier vision center since 1980.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>

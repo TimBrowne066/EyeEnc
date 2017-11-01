@@ -6,6 +6,7 @@ import StoresContainer from '../containers/storesContainer';
 import specials from "../../../../assets/images/specials.png";
 import instagram from '../../../../assets/images/instagram.png';
 import facebook from '../../../../assets/images/facebook.png';
+import twitter from '../../../../assets/images/twitter.png';
 
 class NavBar extends React.Component {
   constructor(props) {
@@ -62,7 +63,8 @@ class NavBar extends React.Component {
       <Modal className="fade" show={this.state.basicModal} onHide={() => this.setState({ basicModal: false })}>
         <Modal.Body>
           {contacts}
-          <a className="appt" href="https://eyeencounters.acuityscheduling.com/schedule.php"><img className="nav-logo" src="http://www.societegenerale.al/en/wp-content/uploads/2016/07/Make-an-appointment.gif"/></a><a href="https://www.instagram.com/eyeencounters/"><Image className="social-media-icon" src={instagram}/></a><a href="https://www.facebook.com/Eye-Encounters-192939874071785/"><Image className="social-media-icon" src={facebook}/></a>
+          <a className="appt" href="https://eyeencounters.acuityscheduling.com/schedule.php"><img className="nav-logo" src="http://www.societegenerale.al/en/wp-content/uploads/2016/07/Make-an-appointment.gif"/></a>            <a href="https://www.instagram.com/eyeencounters/"><Image className="social-media-icon" src={instagram}/></a><a href="https://www.facebook.com/Eye-Encounters-192939874071785/"><Image className="social-media-icon" src={facebook}/></a><a href="https://twitter.com/eyeencounters"><Image className="social-media-icon" src={twitter}/></a>
+
         </Modal.Body>
         <Modal.Footer>
             <button type="button" className="btn btn-danger" onClick={() => this.setState({ basicModal: false })}>Close</button>

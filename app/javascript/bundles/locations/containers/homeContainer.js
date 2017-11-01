@@ -8,17 +8,25 @@ import home3 from '../../../../assets/images/home3.jpg';
 import instagram from '../../../../assets/images/instagram.png';
 import facebook from '../../../../assets/images/facebook.png';
 import twitter from '../../../../assets/images/twitter.png';
+import { Modal } from 'simple-react-bootstrap';
 
 class HomeContainer extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-
+      modal: true
     }
   }
 
   render() {
-
+    let adModal;
+    if (this.state.modal === true) {
+      adModal = <Modal className="fade text-center modal-box" show={this.state.modal} onHide={() => this.setState({ modal: false })}>
+                  <Modal.Body className="ad-modal">
+                    <button type="button" className="btn btn-danger text-right" onClick={() => this.setState({ modal: false })}>Close</button>
+                  </Modal.Body>
+                </Modal>
+    }
 
 
     return (
@@ -28,7 +36,7 @@ class HomeContainer extends React.Component {
         <Row>
           <Col xs={12} lg={8} lgOffset={2} md={8} mdOffset={2} className="text-center home-text">
             <h2 className="body-header">Welcome to Eye Encounters</h2>
-            <h3>Serving the eyecare needs of Philadelphia!</h3>
+            <h3>Serving the eyecare needs of Philadelphia since 1980!</h3>
             <a href="https://www.instagram.com/eyeencounters/"><Image className="social-media-icon" src={instagram}/></a><a href="https://www.facebook.com/Eye-Encounters-192939874071785/"><Image className="social-media-icon" src={facebook}/></a><a href="https://twitter.com/eyeencounters"><Image className="social-media-icon" src={twitter}/></a>
           </Col>
         </Row>
@@ -45,9 +53,10 @@ class HomeContainer extends React.Component {
               <Button bsStyle="info" className="services" href="https://eyeencounters.acuityscheduling.com/schedule.php">Primary Eye Care</Button>
               <Button bsStyle="info" className="services" href="https://eyeencounters.acuityscheduling.com/schedule.php">Comprehensive Eye Examinations</Button>
               <Button bsStyle="info" className="services" href="/contacts/">Contact Lenses and Exams</Button>
-              <Button bsStyle="info" className="services" href="/laboratory/">On-site laboratory</Button>
+              <Button bsStyle="info" className="services" href="/laboratory/">On-site laboratory at 19th and Chestnut</Button>
               <Button bsStyle="info" className="services" href="/laboratory/">Digital Lenses</Button>
               <Button bsStyle="info" className="services" href="/glasses/">Designer frames and sunglasses</Button>
+              <Button bsStyle="info" className="services" href="/laboratory/">Same day glasses service at 19th and Chestnut</Button>
             <br></br><p>As dedicated eye care professionals, we recognize the trust our patients place in us and it is our mission to exceed those expectations. We invite you to come to our practice and receive the quality attention that you deserve.</p>
           </Col>
 
@@ -66,6 +75,7 @@ class HomeContainer extends React.Component {
           </Col>
         </Row>
       </Grid>
+      {adModal}
       </div>
     );
   }
