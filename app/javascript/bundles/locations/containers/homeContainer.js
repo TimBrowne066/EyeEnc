@@ -9,6 +9,8 @@ import instagram from '../../../../assets/images/instagram.png';
 import facebook from '../../../../assets/images/facebook.png';
 import twitter from '../../../../assets/images/twitter.png';
 import { Modal } from 'simple-react-bootstrap';
+import special from '../../../../assets/images/special.png';
+
 
 class HomeContainer extends React.Component {
   constructor(props) {
@@ -21,8 +23,10 @@ class HomeContainer extends React.Component {
   render() {
     let adModal;
     if (this.state.modal === true) {
-      adModal = <Modal className="fade text-center modal-box" show={this.state.modal} onHide={() => this.setState({ modal: false })}>
+      adModal = <Modal className="fade text-center ad-modal" keyboard show={this.state.modal} onHide={() => this.setState({ modal: false })}>
                   <Modal.Body className="ad-modal">
+                    <a href="https://eyeencounters.acuityscheduling.com/schedule.php"><Image className="modal-image" src={special}/></a>
+                    <button type="button" className="btn btn-primary text-right" href="https://eyeencounters.acuityscheduling.com/schedule.php">Schedule an Appointment</button><br/>
                     <button type="button" className="btn btn-danger text-right" onClick={() => this.setState({ modal: false })}>Close</button>
                   </Modal.Body>
                 </Modal>

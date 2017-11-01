@@ -394,7 +394,17 @@ footer {
   border-bottom: 10px solid #222222;
 }
 
+.modal-content{
+  background-color: rgba(0,0,0,.0001) !important;
+  border: 0px;
+  box-shadow: none;
+}
+
 .ad-modal{
-  background-color: #222222;
-  border: 2px solid lightgray;
+  border: 0px;
+  box-shadow: 0px;
+}
+
+.modal-image{
+  width: 100%;
 }
