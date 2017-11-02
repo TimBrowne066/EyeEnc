@@ -26,7 +26,7 @@ class HomeContainer extends React.Component {
       adModal = <Modal className="fade text-center ad-modal" keyboard show={this.state.modal} onHide={() => this.setState({ modal: false })}>
                   <Modal.Body className="ad-modal">
                     <a href="https://eyeencounters.acuityscheduling.com/schedule.php"><Image className="modal-image" src={special}/></a>
-                    <button type="button" className="btn btn-primary text-right" href="https://eyeencounters.acuityscheduling.com/schedule.php">Schedule an Appointment</button><br/>
+                    <a href="https://eyeencounters.acuityscheduling.com/schedule.php"><button type="button" className="btn btn-primary text-right">Schedule an Appointment</button></a><br/>
                     <button type="button" className="btn btn-danger text-right" onClick={() => this.setState({ modal: false })}>Close</button>
                   </Modal.Body>
                 </Modal>

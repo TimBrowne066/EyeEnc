@@ -7,18 +7,26 @@ import specials from "../../../../assets/images/specials.png";
 import instagram from '../../../../assets/images/instagram.png';
 import facebook from '../../../../assets/images/facebook.png';
 import twitter from '../../../../assets/images/twitter.png';
+import specialmodal from "../../../../assets/images/specialmodal.png";
+import appointment from "../../../../assets/images/appointment.gif"
 
 class NavBar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      basicModal: false
+      basicModal: false,
+      specialModal: false,
     }
     this.handleClick = this.handleClick.bind(this)
+    this.handleSpecialClick = this.handleSpecialClick.bind(this)
   }
 
   handleClick(){
     this.setState({ basicModal: true })
+  }
+
+  handleSpecialClick(){
+    this.setState({ specialModal: true })
   }
 
   render() {
@@ -55,8 +63,8 @@ class NavBar extends React.Component {
             </NavDropdown>
           </Nav>
           <Nav pullRight>
-          <a href="https://eyeencounters.acuityscheduling.com/schedule.php"><img className="nav-logo" src={specials}/></a>
-            <a href="https://eyeencounters.acuityscheduling.com/schedule.php"><img className="nav-logo" src="http://www.societegenerale.al/en/wp-content/uploads/2016/07/Make-an-appointment.gif"/></a>
+            <img onClick={this.handleSpecialClick} className="nav-logo" src={specials}/>
+            <a href="https://eyeencounters.acuityscheduling.com/schedule.php"><img className="nav-logo2" src={appointment}/></a>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
@@ -69,6 +77,11 @@ class NavBar extends React.Component {
         <Modal.Footer>
             <button type="button" className="btn btn-danger" onClick={() => this.setState({ basicModal: false })}>Close</button>
         </Modal.Footer>
+      </Modal>
+      <Modal className="fade" show={this.state.specialModal} onHide={() => this.setState({ specialModal: false })}>
+        <Image className="modal-image" src={specialmodal}/>
+        <a href="https://eyeencounters.acuityscheduling.com/schedule.php"><button type="button" className="btn btn-primary text-right">Schedule an Appointment</button></a><br/>
+        <button type="button" className="btn btn-danger" onClick={() => this.setState({ specialModal: false })}>Close</button>
       </Modal>
       </div>
     );
