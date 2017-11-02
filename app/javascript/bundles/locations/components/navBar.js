@@ -61,7 +61,7 @@ class NavBar extends React.Component {
         </Navbar.Collapse>
       </Navbar>
       <Modal className="fade" show={this.state.basicModal} onHide={() => this.setState({ basicModal: false })}>
-        <Modal.Body>
+        <Modal.Body className="contact-modal">
           {contacts}
           <a className="appt" href="https://eyeencounters.acuityscheduling.com/schedule.php"><img className="nav-logo" src="http://www.societegenerale.al/en/wp-content/uploads/2016/07/Make-an-appointment.gif"/></a>            <a href="https://www.instagram.com/eyeencounters/"><Image className="social-media-icon" src={instagram}/></a><a href="https://www.facebook.com/Eye-Encounters-192939874071785/"><Image className="social-media-icon" src={facebook}/></a><a href="https://twitter.com/eyeencounters"><Image className="social-media-icon" src={twitter}/></a>
 
