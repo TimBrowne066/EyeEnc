@@ -8,6 +8,10 @@ import nva from '../../../../assets/images/insurances/nva.jpg';
 import vba from '../../../../assets/images/insurances/vba.jpg';
 import vsp from '../../../../assets/images/insurances/vsp.jpg';
 import spectera from '../../../../assets/images/insurances/spectera.jpg';
+import fop from '../../../../assets/images/insurances/fop.jpg'
+import humana from '../../../../assets/images/insurances/humana.jpg'
+import superior from '../../../../assets/images/insurances/superior.jpg'
+import uhc from '../../../../assets/images/insurances/uhc.jpg'
 
 
 class InsurancesContainer extends React.Component {
@@ -38,6 +42,11 @@ class InsurancesContainer extends React.Component {
             <a href="https://online.visionbenefits.com/pages/gen/ZBlueLogon.aspx"><img className="insurance-card" src={vba}/></a>
             <a href="https://www.vsp.com/"><img className="insurance-card" src={vsp}/></a>
             <a href="https://www.spectera.com/PWP/Landing"><img className="insurance-card" src={spectera}/></a>
+            <a href="https://www.superiorvision.com/"><img className="insurance-card" src={superior}/></a>
+            <a href="https://www.humana.com/"><img className="insurance-card" src={humana}/></a>
+            <a href="http://www.uhccommunityplan.com/"><img className="insurance-card" src={uhc}/></a>
+            <a href="http://fop5.org/"><img className="insurance-card" src={fop}/></a>
+
           </Col>
         </Row>
       </Grid>
