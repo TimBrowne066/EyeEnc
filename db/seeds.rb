@@ -15,8 +15,8 @@ Location.create(
   phone: "(215) 854-0441",
   hours: "Monday	9:30AM–5:30PM\n
           Tuesday	9:30AM–5:30PM\n
-          Wednesday	9:30AM–5:30PM\n
-          Thursday	10AM–7:00PM\n
+          Wednesday	9:30AM–7:00PM\n
+          Thursday	9:30–5:30PM\n
           Friday	9:30AM–5:30PM\n
           Saturday	9:30AM–4PM\n
           Sunday	Closed\n",
@@ -69,14 +69,14 @@ Location.create(
           Wednesday	10AM–6PM\n
           Thursday	10AM–6PM\n
           Friday	10AM–6PM\n
-          Saturday	Closed\n
+          Saturday	10AM-4PM\n
           Sunday	Closed\n",
 latitude: "40.0644548",
 longitude: "-74.9870105"
 )
 Location.create(
   name: "Aramingo Location",
-  address: "3853 Aramingo Ave",
+  address: "2200 Wheatsheaf Ln (Next to Walmart)",
   city: "Philadelphia",
   state: "PA",
   zip: "19137",
@@ -88,8 +88,8 @@ Location.create(
           Friday	10AM–6PM\n
           Saturday	10AM–4PM\n
           Sunday	Closed\n",
-latitude: "39.9963613",
-longitude: "-75.08986959999999"
+latitude: "39.99902129999999",
+longitude: "-75.0918072"
 )
 Location.create(
   name: "Drexel Eye Location",
