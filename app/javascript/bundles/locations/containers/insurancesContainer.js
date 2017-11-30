@@ -8,15 +8,14 @@ import nva from '../../../../assets/images/insurances/nva.jpg';
 import vba from '../../../../assets/images/insurances/vba.jpg';
 import vsp from '../../../../assets/images/insurances/vsp.jpg';
 import spectera from '../../../../assets/images/insurances/spectera.jpg';
-import fop from '../../../../assets/images/insurances/fop.jpg'
-import humana from '../../../../assets/images/insurances/humana.jpg'
-import superior from '../../../../assets/images/insurances/superior.jpg'
-import aetna from '../../../../assets/images/insurances/aetna.jpg'
-import aetnabetterhealth from '../../../../assets/images/insurances/aetnabetterhealth.jpg'
-import bcbs from '../../../../assets/images/insurances/bcbs.jpg'
-import march from '../../../../assets/images/insurances/march.png'
-import united from '../../../../assets/images/insurances/united.jpg'
-import uhc from '../../../../assets/images/insurances/uhc.jpg'
+import fop from '../../../../assets/images/insurances/fop.jpg';
+import humana from '../../../../assets/images/insurances/humana.jpg';
+import superior from '../../../../assets/images/insurances/superior.jpg';
+import aetna from '../../../../assets/images/insurances/aetna.jpg';
+import bcbs from '../../../../assets/images/insurances/bcbs.jpg';
+import march from '../../../../assets/images/insurances/march.png';
+import united from '../../../../assets/images/insurances/united.jpg';
+import uhc from '../../../../assets/images/insurances/uhc.jpg';
 
 class InsurancesContainer extends React.Component {
   constructor(props) {
@@ -51,7 +50,6 @@ class InsurancesContainer extends React.Component {
             <a href="http://www.uhccommunityplan.com/"><img className="insurance-card" src={uhc}/></a>
             <a href="http://fop5.org/"><img className="insurance-card" src={fop}/></a>
             <a href="https://www.aetna.com/index.html"><img className="insurance-card" src={aetna}/></a>
-            <a href="https://www.aetnabetterhealth.com/pennsylvania"><img className="insurance-card" src={aetnabetterhealth}/></a>
             <a href="https://www.bcbs.com/"><img className="insurance-card" src={bcbs}/></a>
             <a href="https://www.marchvisioncare.com/"><img className="insurance-card" src={march}/></a>
             <a href="https://www.uhc.com"><img className="insurance-card" src={united}/></a>
