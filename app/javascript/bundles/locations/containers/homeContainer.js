@@ -36,14 +36,14 @@ class HomeContainer extends React.Component {
     return (
       <div className="home-page">
       <HomeCarousel/>
+      <Row className="intro">
+        <Col xs={12} className="text-center home-text">
+          <h2 className="body-header">Welcome to Eye Encounters</h2>
+          <h3>Serving the eyecare needs of Philadelphia since 1980!</h3>
+          <a href="https://www.instagram.com/eyeencounters/"><Image className="social-media-icon" src={instagram}/></a><a href="https://www.facebook.com/Eye-Encounters-192939874071785/"><Image className="social-media-icon" src={facebook}/></a><a href="https://twitter.com/eyeencounters"><Image className="social-media-icon" src={twitter}/></a>
+        </Col>
+      </Row>
       <Grid className="grid-background">
-        <Row>
-          <Col xs={12} className="text-center home-text">
-            <h2 className="body-header">Welcome to Eye Encounters</h2>
-            <h3>Serving the eyecare needs of Philadelphia since 1980!</h3>
-            <a href="https://www.instagram.com/eyeencounters/"><Image className="social-media-icon" src={instagram}/></a><a href="https://www.facebook.com/Eye-Encounters-192939874071785/"><Image className="social-media-icon" src={facebook}/></a><a href="https://twitter.com/eyeencounters"><Image className="social-media-icon" src={twitter}/></a>
-          </Col>
-        </Row>
         <Row className="locations-block">
         <h2 className="text-center body-header">Locations</h2>
 
