@@ -18,7 +18,7 @@ Location.create(
           Wednesday	9:30AM–7:00PM\n
           Thursday	9:30–5:30PM\n
           Friday	9:30AM–5:30PM\n
-          Saturday	9:30AM–4PM\n
+          Saturday	10AM–4PM\n
           Sunday	Closed\n",
   latitude: "39.9521149",
   longitude: "-75.17282269999998"
