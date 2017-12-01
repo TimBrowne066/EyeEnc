@@ -46,7 +46,7 @@ Location.create(
   city: "Philadelphia",
   state: "PA",
   zip: "19107",
-  phone: "(215) 375-7840",
+  phone: "(267) 514-4393",
   hours: "Monday	10AM–6PM\n
           Tuesday	10AM–6PM\n
           Wednesday	10AM–6PM\n
